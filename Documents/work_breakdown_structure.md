@@ -4,9 +4,9 @@
 graph TD
 
     %% Styling for depths
-    classDef depth1 fill:#FFD580,stroke:#333,stroke-width:1px;
-    classDef depth2 fill:#A3D5FF,stroke:#333,stroke-width:1px;
-    classDef depth3 fill:#C6F6D5,stroke:#333,stroke-width:1px;
+    classDef depth1 fill:#FFD580,stroke:#000,stroke-width:3px,color:#000,font-weight:bold;
+    classDef depth2 fill:#A3D5FF,stroke:#000,stroke-width:2px,color:#000,font-weight:bold;
+    classDef depth3 fill:#C6F6D5,stroke:#000,stroke-width:1px,color:#000,font-weight:bold;
 
     A[0.0 Work Breakdown Structure]
 
