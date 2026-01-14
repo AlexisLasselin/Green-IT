@@ -10,17 +10,21 @@ This document outlines the coventions followed during this project and throughou
 >
 > - `Good Practice`: Use concise and descriptive names with PascalCase for folders.
 >
-> `Documents`
-> `DataModels`
+> ```md
+> Documents
+> DataModels
+> ```
 
 <br>
 
-> [!Warning]
+> [!Caution]
 >
 > - `Bad Practice`: Avoid using spaces, special characters, or overly long names for folders.
 >
-> `folder a`
-> `Plants-images`
+> ```md
+> My Documents
+> data models
+> ```
 
 ### File Naming Conventions
 
@@ -28,14 +32,18 @@ This document outlines the coventions followed during this project and throughou
 >
 > - `Good Practice`: Use snake_case for files with clear and descriptive names.
 >
-> `data_model.py`
-> `user_profile.json`
+> ```md
+> user_profile.json
+> data_model.py
+> ```
 
 <br>
 
-> [!Warning]
+> [!Caution]
 >
 > - `Bad Practice`: Avoid using camelCase, spaces, or special characters in file names.
 >
-> `Datamodel.py`
-> `user.txt`
+> ```md
+> a.json
+> dataModel.py
+> ```
