@@ -6,55 +6,103 @@ graph TD
 
     B[1.0 Documentation]
     C[1.1 Project Charter]
-    D[1.2 Risk Register]
-    E[1.3 Backlog]
+    D[1.1.1 Stakeholder Register]
+    E[1.1.2 Project Scope]
+    F[1.1.3 Project Milestones]
+    G[1.1.4 RACI Matrix & MoSCoW]
+    H[1.2 Risk Register]
+    I[1.3 Backlog]
 
-    G[2.0 Conception]
-    H[2.1 Project Architecture]
-    I[2.2 Conventions]
+    J[2.0 Conception]
+    K[2.1 Project Architecture]
+    L[2.1.1 System Design]
+    M[2.1.2 Dashboard Mockups]
+    N[2.2 Conventions]
+    O[2.2.1 File & Folder Naming]
+    P[2.2.2 Coding Standards]
+    Q[2.2.3 Grafana Conventions]
+    R[2.2.4 Prometheus Conventions]
 
-    J[3.0 Development]
-    K[3.1 Data Collection]
-    L[3.2 Data Analysis]
-    M[3.3 Reporting]
-    N[3.4 Recommandations and Improvements]
+    S[3.0 Development]
+    T[3.1 Data Collection]
+    U[3.1.1 Prometheus Setup]
+    V[3.1.2 Node Exporter Configuration]
+    W[3.2 Data Analysis]
+    X[3.2.1 Grafana Dashboard Creation]
+    Y[3.2.2 Alerting Rules Setup]
+    Z[3.3 Reporting]
+    AA[3.3.1 API Creation]
+    AB[3.3.2 Report Creation]
+    AC[3.4 Recommandations and Improvements]
+    AD[3.4.1 Feedback Collection]
+    AE[3.4.2 Future Enhancements]
 
-    O[4.0 Testing]
-    P[4.1 Data Extraction]
-    Q[4.2 Data Validation]
+    AF[4.0 Testing]
+    AG[4.1 Data Extraction]
+    AH[4.1.1 Prometheus Data Accuracy]
+    AI[4.1.2 Node Exporter Data Accuracy]
+    AJ[4.2 Data Validation]
+    AK[4.2.1 Grafana Dashboard Vamidation]
+    AL[4.2.2 Alerting Rules Validation]
 
-    R[5.0 Delivery]
-    S[5.1 Final Pitch]
-    T[5.2 Project Documentation]
+    AM[5.0 Delivery]
+    AN[5.1 Final Pitch]
+    AO[5.1.1 Speech Preparation]
+    AP[5.1.2 Presentation Slides]
+    AQ[5.2 Project Documentation]
 
     %% Main Structure
     A --> B
-    A --> G
     A --> J
-    A --> O
-    A --> R
+    A --> S
+    A --> AF
+    A --> AM
 
     %% Documentation Subtasks
     B --> C
     C --> D
-    D --> E
+    C --> E
+    C --> F
+    C --> G
+    B --> H
+    B --> I
 
     %% Conception Subtasks
-    G --> H
-    H --> I
-
-    %% Development Subtasks
     J --> K
     K --> L
-    L --> M
-    M --> N
+    K --> M
+    J --> N
+    N --> O
+    N --> P
+    N --> Q
+    N --> R
+
+    %% Development Subtasks
+    S --> T
+    T --> U
+    T --> V
+    S --> W
+    W --> X
+    W --> Y
+    S --> Z
+    Z --> AA
+    Z --> AB
+    S --> AC
+    AC --> AD
+    AC --> AE
 
     %% Testing Subtasks
-    O --> P
-    P --> Q
+    AF --> AG
+    AG --> AH
+    AG --> AI
+    AF --> AJ
+    AJ --> AK
+    AJ --> AL
 
     %% Delivery Subtasks
-    R --> S
-    S --> T
+    AM --> AN
+    AN --> AO
+    AN --> AP
+    AM --> AQ
 
 ```
