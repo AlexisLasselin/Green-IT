@@ -13,3 +13,4 @@ This document serves as a comprehensive risk register for our project. It identi
 | 7       | Loss of key personnel                                    | Medium       | Low        | Succession planning and knowledge sharing                  |
 | 8       | Non-compliance with industry standards                   | High         | Medium     | Regular training and audits                                |
 | 9       | GDPR violations                                          | High         | Low        | Implement strict data handling policies                    |
+| 10      | Outages of critical systems                              | High         | Medium     | Establish backup systems and disaster recovery plans       |
