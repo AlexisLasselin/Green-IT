@@ -2,7 +2,13 @@
 
 ```mermaid
 graph TD
-    A[0.0 Green-IT]
+
+    %% Styling for depths
+    classDef depth1 fill:#FFD580,stroke:#333,stroke-width:1px;
+    classDef depth2 fill:#A3D5FF,stroke:#333,stroke-width:1px;
+    classDef depth3 fill:#C6F6D5,stroke:#333,stroke-width:1px;
+
+    A[0.0 Work Breakdown Structure]
 
     B[1.0 Documentation]
     C[1.1 Project Charter]
@@ -50,6 +56,10 @@ graph TD
     AO[5.1.1 Speech Preparation]
     AP[5.1.2 Presentation Slides]
     AQ[5.2 Project Documentation]
+
+    class A,B,J,S,AF,AM depth1
+    class C,K,H,I,N,T,W,Z,AC,AG,AJ,AN,AQ depth2
+    class D,E,F,G,L,M,O,P,Q,R,U,V,X,Y,AA,AB,AD,AE,AH,AI,AK,AL,AO,AP depth3
 
     %% Main Structure
     A --> B
