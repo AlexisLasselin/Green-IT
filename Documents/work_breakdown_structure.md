@@ -61,48 +61,48 @@ graph TD
     %% Documentation Subtasks
     B --> C
     C --> D
-    C --> E
-    C --> F
-    C --> G
+    D --> E
+    E --> F
+    F --> G
     B --> H
     B --> I
 
     %% Conception Subtasks
     J --> K
     K --> L
-    K --> M
+    L --> M
     J --> N
     N --> O
-    N --> P
-    N --> Q
-    N --> R
+    O --> P
+    P --> Q
+    Q --> R
 
     %% Development Subtasks
     S --> T
     T --> U
-    T --> V
+    U --> V
     S --> W
     W --> X
-    W --> Y
+    X --> Y
     S --> Z
     Z --> AA
-    Z --> AB
+    AA --> AB
     S --> AC
     AC --> AD
-    AC --> AE
+    AD --> AE
 
     %% Testing Subtasks
     AF --> AG
     AG --> AH
-    AG --> AI
+    AH --> AI
     AF --> AJ
     AJ --> AK
-    AJ --> AL
+    AK --> AL
 
     %% Delivery Subtasks
     AM --> AN
     AN --> AO
-    AN --> AP
+    AO --> AP
     AM --> AQ
 
 ```
