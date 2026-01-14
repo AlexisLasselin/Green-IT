@@ -133,3 +133,28 @@ In addition to measurable financial benefits, the Green-IT dashboard provides se
 | Documentation and Training    | 300                |
 | Miscellaneous Expenses        | 200                |
 | **Total Estimated Budget**    | **2,500**          |
+
+## Stakeholder Analysis
+
+| Stakeholder | Role                                                                        | Interest Level | Influence Level | Engagement Strategy                            |
+| ----------- | --------------------------------------------------------------------------- | -------------- | --------------- | ---------------------------------------------- |
+| Client      | Project Sponsor                                                             | High           | High            | Regular updates, involvement in key decisions  |
+| Alexis      | Service Request Manager <br> Project Manager <br> Software Engineer <br> QA | High           | High            | Active participation in planning and execution |
+| Jason       | Service Delivery Manager <br> Tech Lead <br> Software Engineer <br> QA      | High           | High            | Active participation in planning and execution |
+
+## RACI Matrix
+
+The RACI Matrix is a management document used to define team roles across 4 categories: Responsible, Accountable, Consulted, Informed.
+
+| Name               | Project Manager | Program Manager | Tech Lead | Software Engineer | Quality Assurance | Technical Writer | Client |
+| :----------------- | :-------------: | :-------------: | :-------: | :---------------: | :---------------: | :--------------: | :----: |
+| Project Brief      |        I        |        I        |     I     |         I         |         I         |        I         | R / A  |
+| Project Charter    |      R / A      |      C / I      |   C / I   |       C / I       |       C / I       |      C / I       |   C    |
+| Planning           |      R / A      |      C / I      |   C / I   |       C / I       |       C / I       |      C / I       |   C    |
+| Code               |        -        |        -        |     C     |       R / A       |         I         |        -         |   -    |
+| Code Documentation |        -        |        -        |     C     |       R / A       |       C / I       |        -         |   -    |
+
+**Responsible**: Those who are responsible for the correct completion of the task; <br>
+**Accountable**: The one that must sign off (approve) work that the Responsible provides; <br>
+**Consulted**: Those whose opinions are sought, typically subject-matter experts, and with whom there is a two-way communication; <br>
+**Informed**: Those who are kept up-to-date on progress, often only on completion of the task or deliverable, and with whom there is just a one-way communication; <br>
