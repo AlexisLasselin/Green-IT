@@ -158,3 +158,20 @@ The RACI Matrix is a management document used to define team roles across 4 cate
 **Accountable**: The one that must sign off (approve) work that the Responsible provides; <br>
 **Consulted**: Those whose opinions are sought, typically subject-matter experts, and with whom there is a two-way communication; <br>
 **Informed**: Those who are kept up-to-date on progress, often only on completion of the task or deliverable, and with whom there is just a one-way communication; <br>
+
+## MoSCoW Prioritization
+
+The MoSCoW method is a prioritization technique used to reach a common understanding with stakeholders on the importance they place on the delivery of each requirement. The letters in MoSCoW stand for:
+
+- **M**ust have
+- **S**hould have
+- **C**ould have
+- **W**on't have this time
+
+| Must Have                          | Should Have                        | Could Have                  | Won't Have This Time               |
+| ---------------------------------- | ---------------------------------- | --------------------------- | ---------------------------------- |
+| Monitoring dashboard core features | User training sessions             | Advanced analytics features | Integration with non-IT systems    |
+| Real-time data collection          | Environmental impact reporting     | Mobile app version          | Long-term maintenance services     |
+| Basic documentation                | Customizable dashboard views       | Social sharing features     | Hardware procurement               |
+| Testing and quality assurance      | Automated alerts and notifications | Gamification elements       | Extensive third-party integrations |
+
