@@ -4,7 +4,38 @@ This document outlines the coventions followed during this project and throughou
 
 ## Files and Directories
 
-- All Folders must use PascalCase.
-- All Files must use snake_case.
-- All file names must be descriptive of their content or purpose.
-- All directory names must be descriptive of their content or purpose.
+### Folder Naming Conventions
+
+> [!TIP]
+>
+> - `Good Practice`: Use concise and descriptive names with PascalCase for folders.
+>
+> `Documents`
+> `DataModels`
+
+<br>
+
+> [!Warning]
+>
+> - `Bad Practice`: Avoid using spaces, special characters, or overly long names for folders.
+>
+> `folder a`
+> `Plants-images`
+
+### File Naming Conventions
+
+> [!TIP]
+>
+> - `Good Practice`: Use snake_case for files with clear and descriptive names.
+>
+> `data_model.py`
+> `user_profile.json`
+
+<br>
+
+> [!Warning]
+>
+> - `Bad Practice`: Avoid using camelCase, spaces, or special characters in file names.
+>
+> `Datamodel.py`
+> `user.txt`
