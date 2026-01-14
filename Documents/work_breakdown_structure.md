@@ -48,7 +48,7 @@ graph TD
     AH[4.1.1 Prometheus Data Accuracy]
     AI[4.1.2 Node Exporter Data Accuracy]
     AJ[4.2 Data Validation]
-    AK[4.2.1 Grafana Dashboard Vamidation]
+    AK[4.2.1 Grafana Dashboard Validation]
     AL[4.2.2 Alerting Rules Validation]
 
     AM[5.0 Delivery]

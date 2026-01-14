@@ -47,3 +47,141 @@ This document outlines the coventions followed during this project and throughou
 > a.json
 > dataModel.py
 > ```
+
+## Grafana Conventions
+
+### Dashboard Naming
+
+> [!Tip]
+>
+>- `Good Practice`: Name dashboards based on their purpose and scope in PascalCase.
+>
+> ```md
+> SystemOverview
+> ApplicationMetrics
+>```
+
+<br>
+
+> [!Caution]
+>
+> - `Bad Practice`: Avoid generic names or using names with confusing terms.
+>
+> ```md
+> Dashboard A
+> FlashBoard4
+> ```
+
+### Query Naming
+
+> [!Tip]
+>
+> - `Good Practice`: Name queries based on their purpose and scope in snake_case.
+>
+> ```md
+> user_count_query
+> data_model_query
+> ```
+
+<br>
+
+> [!Caution]
+>
+> - `Bad Practice`: Avoid generic names or using names with confusing terms.
+>
+> ```md
+> query_1
+> query_2
+> ```
+
+## Prometheus Conventions
+
+### Metric Naming
+
+> [!Tip]
+>
+> - `Good Practice`: Name metrics based on their purpose and scope in snake_case.
+>
+> ```md
+> user_count_metric
+> data_model_metric
+> ```
+
+<br>
+
+> [!Caution]
+>
+> - `Bad Practice`: Avoid generic names or using names with confusing terms.
+>
+> ```md
+> metric_1
+> metric_2
+> ```
+
+### Alert Naming
+
+> [!Tip]
+>
+> - `Good Practice`: Name alerts based on their purpose and scope in UPPER_CASE.
+>
+> ```md
+> HIGH_CPU_USAGE
+> LOW_DISK_SPACE
+>```
+
+<br>
+
+> [!Caution]
+>
+> - `Bad Practice`: Avoid generic names or using names with confusing terms.
+>
+> ```md
+> ALERT 1
+> alert cpu
+>```
+
+## Coding Standards
+
+### Variables
+
+> [!Tip]
+>
+> - `Good Practice`: Use descriptive names in snake_case for variables.
+>
+> ```python
+> user_count = 10
+> usernames = ["alice", "bob", "charlie"]
+>```
+
+<br>
+
+> [!Caution]
+>
+> - `Bad Practice`: Avoid using single-letter names or ambiguous terms for variables.
+>
+> ```python
+> a = 10
+> list = ["alice", "bob", "charlie"]
+> ```
+
+### Functions
+
+> [!Tip]
+>
+> - `Good Practice`: Use descriptive names in snake_case for functions.
+>
+> ```python
+> get_user_count()
+> format_data()
+> ```
+
+<br>
+
+> [!Caution]
+>
+> - `Bad Practice`: Avoid using generic names or ambiguous terms for functions.
+>
+> ```python
+> func()
+> array()
+>```
