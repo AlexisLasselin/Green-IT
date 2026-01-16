@@ -60,6 +60,38 @@ graph TD
         Dash -->|Grafana API| ECA
         DA --> A
         DA --> R
-        DA --> D
-    
+        DA --> D 
 ```
+
+## Dashboard Mockup
+
+- consuption / pollution evolution over time
+- consuption / pollution at current time
+- alerts overview
+- average consuption per machine
+
+```mermaid
+graph LR
+    subgraph Dashboard["Dashboard Mockup"]
+        direction LR
+        subgraph left_column["Left Column"]
+            direction TB
+            ET[Energy Consuption Over Time]
+            CM[Current Consumption]
+        end
+        subgraph right_column["Right Column"]
+            direction TB
+            CO[Consumption / Pollution Evolution Over Time]
+            CC[Consumption / Pollution at Current Time]
+        end
+    PC[Park of Machines Consumption]
+    PP[Park of Machines Pollution]
+    end
+```
+
+## Recomandations Report Structure
+
+- summary of key findings
+- detailed analysis of energy consumption patterns
+- recommendations for optimization
+- implementation plan
